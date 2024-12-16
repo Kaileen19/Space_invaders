@@ -1,26 +1,40 @@
-# Make-your-game
+# 🚀 Space Invaders Game 🌌
 
-2D Space Invaders. Destroy all the enemies!
+Welcome to Space Invaders! 👾 A classic arcade game where you defend Earth from alien invaders. 🚀
 
-# Auditing
+## Features 🌟
 
-Exercise description here: [description](https://01.kood.tech/git/root/public/src/branch/master/subjects/make-your-game)
+- 🕹️ **Smooth gameplay** at 60 FPS using plain JavaScript and HTML (no frameworks or canvas).
+- ⏱️ **Timer** that tracks the game time or countdown to the end.
+- 💥 **Scoreboard** showing:
+  - Current score 🏆
+  - Remaining lives ❤️
+  - Time left ⏰
+- ☝️ **Responsive controls**: Move your spaceship and shoot by pressing the arrow keys and spacebar. No key spamming required!
+- 🎮 **Pause menu**: Pause, restart, or continue the game anytime without affecting FPS.
+- 💨 **No frame drops**: Achieving smooth animation with proper use of `requestAnimationFrame`.
 
-Audit test questions here: [audit](https://01.kood.tech/git/root/public/src/branch/master/subjects/make-your-game/audit)
+## How to Play 🎮
 
-I strongly recommend git pull before you start. There has been problems in the past with files not being correct version.
+1. Use the **arrow keys** to move your spaceship.
+2. Press the **spacebar** to shoot missiles at the aliens.
+3. Defend against waves of invaders and try to survive as long as possible!
+4. Press **P** to pause, **R** to restart.
 
-I recommend using VScode "Live Server" extension for testing the game.
-Testing process with Live server:
+## Technologies Used 🔧
 
-1. Start the live-server. Right click on index.html and click "Open with Live Server"
-2. Navigate to the page localhost:5500 (default)
-3. Play!
-4. After testing press F1 and click stop Live Server (or exit VScode)
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-# Game instructions
+## Developer Tools 🛠️
 
-The goal of the game is to destroy all the enemies as fast as possible without getting killed. You have 3 lives to kill all of them!
-To start the game press enter!
+- Use **Chrome/Firefox Developer Tools** to monitor performance, FPS, and troubleshoot.
 
-### Thank you for auditing!!
+## Requirements 📝
+
+- **Browser**: Chrome, Firefox, or any modern browser.
+- **Internet**: No internet connection required after loading the game.
+
+Enjoy playing and may the best invader win! 👾🚀
+
